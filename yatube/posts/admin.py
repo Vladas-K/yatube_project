@@ -17,5 +17,6 @@ class PostAdmin(admin.ModelAdmin):
 
 # При регистрации модели Post источником конфигурации для неё назначаем
 # класс PostAdmin
+# Russia
 admin.site.register(Post, PostAdmin) 
 admin.site.register(Group)
